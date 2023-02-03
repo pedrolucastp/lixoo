@@ -7,7 +7,7 @@ const firebaseConfig = {
   projectId: "lixoo-club",
   storageBucket: "lixoo-club.appspot.com",
   messagingSenderId: "151275371260",
-  appId: process.env.REACT_APP_API_ID,
+  appId: process.env.REACT_APP_APP_ID,
   measurementId: "G-CTYBPFDY3Z"
 };
 
