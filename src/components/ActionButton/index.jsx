@@ -19,8 +19,8 @@ export default class ActionButton extends Component {
 
     render() {
         return (
-            <div className={`action-button ${this.props.type}`}>
-                <img className="button-icon" src={this.props.type === "receiver" ? a : b} alt=''></img>
+            <div className={`action-button ${this.props.type}`} onClick={this.props.onClick}>
+                <img className="action-icon" src={this.props.type === "collector" ? a : b} alt=''></img>
                 {this.state.title}
             </div>
         )

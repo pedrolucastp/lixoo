@@ -1,0 +1,11 @@
+.Actions-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+   /*  background: white; */
+    width: 100%;
+    flex: 1;  
+    border-radius: 20px;
+  }
