@@ -1,7 +1,20 @@
 #Lixoo App
-###O Lixoo App é a solução para descarte responsável de resíduos recicláveis. 
+###The solution for responsible waste disposal of recyclable waste everywhere.
 
-##Conecte-se 
-com a comunidade do Lixoo Club em qualquer lugar do mundo e tenha acesso a catadores talentosos, incluindo autônomos, cooperativas e empresas. 
-Garanta que seus resíduos recicláveis cheguem ao destino certo com facilidade e eficiência. 
-Junte-se a nós e contribua para um mundo mais limpo e sustentável."
+##Connect
+Join the Lixoo Club community anywhere in the world and have access to talented waste pickers, including individuals, cooperative businesses, and companies.
+Ensure that your recyclable waste reaches its proper destination easily and efficiently.
+Join us and contribute to a cleaner and more sustainable world.
+
+###To get started with development:
+Clone the repository:
+`git clone https://github.com/pedrolucastp/lixoo.git`
+
+Acesse o diretório do projeto
+`cd lixoo`
+
+Install the dependencies:
+`npm install`
+
+Start the local development environment:
+`npm run dev`
