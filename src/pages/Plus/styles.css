@@ -9,11 +9,3 @@
     flex: 1;  
     border-radius: 20px;
   }
-
-  .auth-container {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background: #000;
-  }
-

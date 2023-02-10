@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "result": {
+    "fileName": "google-config.js",
+    "fileContents": "// Copy and paste this into your JavaScript code to initialize the Firebase SDK.\n// You will also need to load the Firebase SDK.\n// See https://firebase.google.com/docs/web/setup for more details.\n\nfirebase.initializeApp({\n  \"projectId\": \"lixoo-club\",\n  \"appId\": \"1:151275371260:web:84af35c880152ca9ba3579\",\n  \"databaseURL\": \"https://lixoo-club-default-rtdb.firebaseio.com\",\n  \"storageBucket\": \"lixoo-club.appspot.com\",\n  \"locationId\": \"us-central\",\n  \"apiKey\": \"AIzaSyDwDmo-nHVP5dC4epTpuK-Gp-o5uDZ6wkU\",\n  \"authDomain\": \"lixoo-club.firebaseapp.com\",\n  \"messagingSenderId\": \"151275371260\",\n  \"measurementId\": \"G-CTYBPFDY3Z\"\n});\n",
+    "sdkConfig": {
+      "projectId": "lixoo-club",
+      "appId": "1:151275371260:web:84af35c880152ca9ba3579",
+      "databaseURL": "https://lixoo-club-default-rtdb.firebaseio.com",
+      "storageBucket": "lixoo-club.appspot.com",
+      "locationId": "us-central",
+      "apiKey": "AIzaSyDwDmo-nHVP5dC4epTpuK-Gp-o5uDZ6wkU",
+      "authDomain": "lixoo-club.firebaseapp.com",
+      "messagingSenderId": "151275371260",
+      "measurementId": "G-CTYBPFDY3Z"
+    }
+  }
+}

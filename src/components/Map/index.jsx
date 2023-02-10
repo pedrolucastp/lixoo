@@ -20,11 +20,11 @@ export default class Map extends Component {
   }
 
   componentDidMount() {
-    this.generateRandomCoordinates();
+    // this.generateRandomCoordinates();
     // this.frenchGovApi();
   }
 
-  generateRandomCoordinates = () => {
+  generateRandomCoordinates =  () => {
     let arr = [];
     for (let i = 0; i < 1000; i++) {
       let lat = (Math.random() * (90 - -90) + -90).toFixed(6);
@@ -34,8 +34,8 @@ export default class Map extends Component {
     this.setState({ randomCoordinates: arr });
   };
 
-  frenchGovApi = () => {
-    fetch("https://api-adresse.data.gouv.fr/search/?q=paris&type=street")
+  frenchGovApi = async () => {
+    await fetch("https://api-adresse.data.gouv.fr/search/?q=paris&type=street")
       .then((response) => response.json())
       .then((response) => {
         this.setState({ apiCoordinates: response.features });
