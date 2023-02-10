@@ -1,0 +1,8 @@
+.Splash-screen{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, var(--aqua) 50%, var(--lila) 50%)
+}

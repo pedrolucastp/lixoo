@@ -4,6 +4,7 @@ import Home from "../../pages/Home";
 import Account from "../../pages/Account";
 import Settings from "../../pages/Settings";
 import Help from "../../pages/Help";
+/* import Plus from "../../pages/Plus"; */
 
 
 export default class ActionsPanel extends Component {
@@ -27,16 +28,21 @@ export default class ActionsPanel extends Component {
                 <Home />
             )
         }
-        if (this.state.current_page === "settings") {
-            return (
-                <Settings />
-            )
-        }
         if (this.state.current_page === "account") {
             return (
                 <Account />
             )
         }
+        if (this.state.current_page === "settings") {
+            return (
+                <Settings />
+            )
+        }
+       /*  if (this.state.current_page === "plus") {
+            return (
+                <Plus />
+            )
+        } */
         if (this.state.current_page === "help") {
             return (
                 <Help />

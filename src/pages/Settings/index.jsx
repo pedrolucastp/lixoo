@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles.css';
-import ActionButton from '../../components/ActionButton';
 
 export default class Settings extends Component {
 	constructor(props) {
@@ -11,8 +10,11 @@ export default class Settings extends Component {
 	render() {
 		return (
 			<div className='Actions-panel'>
-				<ActionButton title="C" type="collector" />
-				<ActionButton title="D" type="supplier" />
+			<h1 onClick={() => {
+                this.props.onReturn(false)
+            }}>
+                {"Settings"}
+            </h1>
 			</div>
 		)
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-export default class Help extends Component {
+export default class Plus extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {}
@@ -13,7 +13,7 @@ export default class Help extends Component {
 			<h1 onClick={() => {
                 this.props.onReturn(false)
             }}>
-                { "Help"}
+                {"Plus"}
             </h1>
 			</div>
 		)

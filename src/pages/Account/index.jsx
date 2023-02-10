@@ -1,20 +1,25 @@
-import React, { Component } from 'react';
-import './styles.css';
-import ActionButton from '../../components/ActionButton';
+import React, { Component } from "react";
+import "./styles.css";
+import FirebaseApp from "../../FirebaseAuth/FirebaseApp";
 
 export default class Account extends Component {
-	constructor(props) {
-		super(props)
-		this.state = {}
-	}
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-	render() {
-		return (
-			<div className='Actions-panel'>
-				<ActionButton title="A" type="collector" />
-				<ActionButton title="B" type="supplier" />
-			</div>
-		)
-
-	}
+  render() {
+    return (
+      <div className="Actions-panel">
+        <h1
+          onClick={() => {
+            this.props.onReturn(false);
+          }}
+        >
+          {"Account"}
+        </h1>
+        <FirebaseApp />
+      </div>
+    );
+  }
 }

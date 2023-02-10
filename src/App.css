@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+:root {
+  --aqua: rgb(12,218,207);;
+  --lila: rgb(83,11,174);
+}
+
 .App {
   text-align: center;
   height: 100vh;
