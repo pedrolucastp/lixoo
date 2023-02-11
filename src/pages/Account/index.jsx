@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles.css";
-import FirebaseApp from "../../FirebaseAuth/FirebaseApp";
+import UserPage from "./UserPage/UserPage";
 
 export default class Account extends Component {
   constructor(props) {
@@ -16,9 +16,9 @@ export default class Account extends Component {
             this.props.onReturn(false);
           }}
         >
-          {"Account"}
+          {"My Account"}
         </h1>
-        <FirebaseApp />
+        <UserPage />
       </div>
     );
   }

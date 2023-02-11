@@ -3,7 +3,7 @@ import * as firebaseui from "firebaseui";
 import "firebaseui/dist/firebaseui.css";
 import firebase from "firebase/compat/app";
 
-class AuthGoogle extends Component {
+export default class FirebaseAuthUI extends Component {
   componentDidMount() {
     const ui =
       firebaseui.auth.AuthUI.getInstance() ||
@@ -32,7 +32,7 @@ class AuthGoogle extends Component {
 
         // firebase.auth.TwitterAuthProvider.PROVIDER_ID, // Twitter does not support scopes.
       ],
-      signInSuccessUrl: "/authenticated",
+      signInSuccessUrl: "",
       privacyPolicyUrl: "<privacy-policy-url>",
       tosUrl: "<term-of-service-url>",
     });
@@ -46,5 +46,3 @@ class AuthGoogle extends Component {
     );
   }
 }
-
-export default AuthGoogle;
